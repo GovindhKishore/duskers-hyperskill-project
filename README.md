@@ -1,6 +1,7 @@
 # Duskers
 
-A simple text-based resource management and exploration game written in Python.
+A console-based exploration and resource management game built as part of the Hyperskill Python track.
+Navigate derelict locations, manage resources, and survive with your robotic crew.
 
 ## Features
 
@@ -19,7 +20,8 @@ A simple text-based resource management and exploration game written in Python.
    - `seed`: Optional seed for random number generation (default is 0)
    - `min animation time`: Minimum time for animations (default is 0.1 seconds)
    - `max animation time`: Maximum time for animations (default is 0.5 seconds)
-   - `give names of locations`: 
+   - `give names of locations`: Optional list of locations to include in the game (default is `GreenPark,NuclearPlantWreckage,HighStreet,BrokenOverpass,ControlBunker`)
+   -  Example: `python duskers.py 42 0.1 0.5 GreenPark,NuclearPlantWreckage,HighStreet`
 ## Game Flow
 
 - **Main Menu**: New Game, Load Game, High Scores, Help, Exit
@@ -41,5 +43,4 @@ A simple text-based resource management and exploration game written in Python.
 - Follow prompts for further actions
 
 ## License
-
-MIT License (or specify your own)
+This project is licensed under the MIT License. See the LICENSE file for details.
