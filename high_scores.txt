@@ -1,4 +1,4 @@
 player1 23
 player2 97
-player3 1110
-player4 4350
+player3 110
+player4 50
