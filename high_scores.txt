@@ -1,10 +1,4 @@
-gonvin 0
-ebjbner 0
-oigw 0
-few 0
-dfq 0
-begr 0
-egw 0
-wefwe 0
-regw 0
-here come me 118
+player1 23
+player2 97
+player3 1110
+player4 4350
