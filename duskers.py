@@ -295,6 +295,7 @@ def explore(game_state):
             encounter_decision = random.random()
             if encounter_decision < encounter_rate[int(ex_cmd)]:
                 dot_animation("Enemy Encounter")
+                print()
                 if game_state['robots'] != 1:
                     print(f"{map_num_loc[int(ex_cmd)]} explored successfully, 1 robot lost..")
                 else:
@@ -323,6 +324,7 @@ def explore(game_state):
             encounter_decision = random.random()
             if encounter_decision < encounter_rate[int(ex_cmd)]:
                 dot_animation("Enemy Encounter")
+                print()
                 if game_state['robots'] != 1:
                     print(f"{map_num_loc[int(ex_cmd)]} explored successfully, 1 robot lost..")
                 else:
